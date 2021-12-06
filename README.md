@@ -8,3 +8,13 @@ same problems to solve.
 | Note: |
 | :--- |
 | The React library is not included — it is assumed that these hooks are always used with a project already using react. |
+
+## useViewport
+
+`useViewport()` returns the current viewport height and width, which can then
+be used within components for conditional rendering etc. An event listener used
+to update the values whenever the dimensions change.
+
+### Return value
+
+`[viewportHeight, viewportWidth]`
