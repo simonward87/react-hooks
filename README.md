@@ -12,7 +12,7 @@ same problems to solve.
 ## useViewport
 
 `useViewport()` returns the current viewport height and width, which can then
-be used within components for conditional rendering etc. An event listener used
+be used within components for conditional rendering etc. An event listener is used
 to update the values whenever the dimensions change.
 
 ### Return value
